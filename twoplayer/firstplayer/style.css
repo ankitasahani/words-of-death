@@ -1,0 +1,67 @@
+body{
+    padding: 70px;
+    background-color: rgb(1, 90, 119);
+}
+
+h1{
+    font-size: 4em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    background-color: rgb(125, 206, 233);
+}
+
+.newgamebutton, .endbutton, .startgamebutton, .oneplayerbutton, .twoplayerbutton{
+    background-color: rgba(170, 239, 235);
+    color: royalblue;
+    font-size: 20px;
+    text-align: center;
+    width: 190px;
+}
+
+.col-lg-4{
+    text-align: center;
+}
+
+.col-lg-6{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+p{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.col-lg-12{
+    padding: 20px;
+    text-align: center;
+}
+
+.wordDisplayContainer{
+    background-color: rgba(100, 100, 100, 0.2);
+    color: royalblue;
+    height: auto;
+    font-size: 5em;
+}
+
+.progressContainer {
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+    width: 85%;
+    height: 2px;
+    background-color: blanchedalmond;
+    padding-bottom: 10px;
+  }
+  #progressBar {
+  display: block;
+  position: absolute;
+  height: 10px;
+  width: 10px; 
+  top: -4px;
+  border-radius: 50%;
+  background-color: rgba(59, 131, 1, 0.795);
+  }
