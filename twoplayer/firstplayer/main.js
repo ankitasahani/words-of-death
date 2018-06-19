@@ -63,7 +63,7 @@ function endGame() {
   game = false;
   display.innerHTML = 'Over!';
   if (yourscore >= 0) {
-    document.body.innerHTML += "<br>Your score is " + yourscore + " points.<br>");
+    document.body.innerHTML += "<br>Your score is " + yourscore + " points.<br>";
   } else {
     return;
   }
